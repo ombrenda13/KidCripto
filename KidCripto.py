@@ -10,14 +10,14 @@ A=input()
 B=input()
 msg_x=input()
 
-M=(int(a)*int(b))-1
-e=(int(A)*M)+int(a)
-d=(int(B)*M)+int(b)
-n=((e*d)-1)/int(M)
+M=(float(a)*float(b))-1
+e=(float(A)*M)+float(a)
+d=(float(B)*M)+float(b)
+n=((e*d)-1)/float(M)
 
 
 encrypt=(msg_x*e)
-cypher_y=int(encrypt%n)
+cypher_y=float(encrypt%n)
 
 decrypt=cypher_y*d
 plaintext=(decrypt%n)
