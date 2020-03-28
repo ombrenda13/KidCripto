@@ -10,7 +10,7 @@ A=input()
 B=input()
 msg_x=input()
 
-M=(int(a)*b)-1
+M=(float(a)*b)-1
 e=(A*M)+a
 d=(B*M)+b
 n=((e*d)-1)/M
