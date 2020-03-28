@@ -4,11 +4,11 @@
 # In[18]:
 
 
-a=float(int(input()))
-b=float(int(input()))
-A=float(int(input()))
-B=float(int(input()))
-msg_x=float(int(input()))
+a=float(input())
+b=float(input())
+A=float(input())
+B=float(input())
+msg_x=float(input())
 
 M=(a*b)-1
 e=(A*M)+a
