@@ -9,7 +9,6 @@ b=input()
 A=input()
 B=input()
 msg_x=input()
-a=int(a)
 M=(a*b)-1
 e=(A*M)+a
 d=(B*M)+b
