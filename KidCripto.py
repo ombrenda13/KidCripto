@@ -15,10 +15,6 @@ e=(A*M)+a
 d=(B*M)+b
 n=((e*d)-1)/M
 
-print(M)
-print(e)
-print(d)
-print(n)
 
 encrypt=(msg_x*e)
 cypher_y=int(encrypt%n)
@@ -26,11 +22,6 @@ cypher_y=int(encrypt%n)
 decrypt=cypher_y*d
 plaintext=(decrypt%n)
 
-
-print("-----")
-print(encrypt)
-print(cypher_y)
-print(decrypt)
 print(cypher_y)
 
 
