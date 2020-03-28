@@ -4,16 +4,16 @@
 # In[18]:
 
 
-a=input()
-b=input()
-A=input()
-B=input()
-msg_x=input()
+a=float(int(input()))
+b=float(int(input()))
+A=float(int(input()))
+B=float(int(input()))
+msg_x=float(int(input()))
 
-M=(float(a)*float(b))-1
-e=(float(A)*M)+float(a)
-d=(float(B)*M)+float(b)
-n=((e*d)-1)/float(M)
+M=(a*b)-1
+e=(A*M)+a
+d=(B*M)+b
+n=((e*d)-1)/M
 
 
 encrypt=(msg_x*e)
