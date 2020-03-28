@@ -20,9 +20,6 @@ print(e)
 print(d)
 print(n)
 
-Pu_k=[n,e]
-Pri_k=[d]
-
 encrypt=(msg_x*e)
 cypher_y=int(encrypt%n)
 
