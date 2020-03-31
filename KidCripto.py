@@ -11,18 +11,24 @@ B=int(input())
 msg_x=int(input())
 
 M=(a*b)-1
+e=(A*M)+a
+d=(B*M)+b
 n=((e*d)-1)/M
+
 if ED=='E':
-    e=(A*M)+a
+    
     encrypt=(msg_x*e)%n
     
     print(encrypt)
 
 else:
-    d=(B*M)+b
+    
     decrypt=(msg_x*d)%n
-        
-    print(decrypt)
+    print(decrypt)    
+    
+    
+
+
     
 
 
