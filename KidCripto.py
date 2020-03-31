@@ -21,12 +21,12 @@ if ED=='E':
     
     encrypt=(msg_x*e)%n
     
-    print(encrypt)
+    print(int(encrypt))
 
 else:
     
     decrypt=(msg_x*d)%n
-    print(decrypt)    
+    print(int(decrypt))    
     
     
 
