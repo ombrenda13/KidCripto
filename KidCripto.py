@@ -17,20 +17,13 @@ e=(A*M)+a
 d=(B*M)+b
 n=((e*d)-1)/M
 
-if ED=='E':
-    
-    encrypt=(msg_x*e)%n
-    
-    print(int(encrypt))
-
-else:
-    
-    decrypt=(msg_x*d)%n
-    print(int(decrypt))    
-    
-    
-
-
+if msg_x<n:
+    if ED=='E':
+        encrypt=(msg_x*e)%n
+        print(int(encrypt))
+    else:
+        decrypt=(msg_x*d)%n
+        print(int(decrypt))    
     
 
 
