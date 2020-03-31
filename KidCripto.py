@@ -11,6 +11,8 @@ B=int(input())
 msg_x=int(input())
 
 M=(a*b)-1
+
+
 e=(A*M)+a
 d=(B*M)+b
 n=((e*d)-1)/M
